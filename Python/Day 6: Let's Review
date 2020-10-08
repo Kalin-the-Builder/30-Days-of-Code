@@ -1,0 +1,5 @@
+t = int(input()) #the number of test cases
+
+for i in range(t):
+    s = input()
+    print(s[::2], s[1::2]) #full slice syntax is: start:stop:step [0:0:2] [1:0:2]
